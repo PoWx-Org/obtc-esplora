@@ -59,11 +59,24 @@ a, a:link, a:visited, a:hover, a:focus {
 .navbar-brand::before {
   width: 54px;
   height: 54px;
-  background: url(img/icons/menu-logo.png);
+  background: url(img/icons/menu-logo-light.png);
   background-size: 54px 54px;
   display: inline-block;
   vertical-align: top;
   content: ' ';
+}
+
+.powx-brand {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #a9b1b6 !important;
+  padding: 0px 10px;
+
+  transition-duration: 0.15s;
+}
+
+.powx-brand:hover {
+  color: white !important;
 }
 
 /* buttons */
@@ -1262,7 +1275,7 @@ img.footer_container_content_onion-links_icon {
 body::after{
     position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
     content: url(img/icons/plus.png) url(img/icons/arrow_right_blu.png) url(img/icons/arrow_left_blu.png) url(img/icons/copy.png)
-             url(img/icons/menu-logo.png) url(img/Loading.gif) url(img/icons/search.png);
+             url(img/icons/menu-logo.png) url(img/icons/menu-logo-light.png) url(img/Loading.gif) url(img/icons/search.png);
 }
 
 /* only show loading animation when we're loading for more than 0.5s,
